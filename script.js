@@ -19,5 +19,7 @@ adicionar.addEventListener("click", function() {
         listaLivros.appendChild(livro);
 
         nomeLivro.value = "";
+
+        alert("Livro cadastrado com sucesso!");
     }
 });
