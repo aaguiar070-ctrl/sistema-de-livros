@@ -11,6 +11,15 @@ adicionar.addEventListener("click", function() {
         var remover = document.createElement("button");
         remover.textContent = "Remover";
 
+        var favorito = document.createElement("button");
+        favorito.textContent = "Favorito";
+
+      favorito.addEventListener("click", function() {
+          livro.style.fontWeight = "bold";
+     });
+
+     livro.appendChild(favorito);
+
         remover.addEventListener("click", function() {
             livro.remove();
         });
