@@ -22,5 +22,6 @@ adicionar.addEventListener("click", function() {
 
         alert("Livro cadastrado com sucesso!");
         console.log("Livro cadastrado!");
+        console.log("cadastro realizado com sucesso!");
     }
 });
